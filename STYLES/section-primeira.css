@@ -1,0 +1,30 @@
+.container__primario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 96px 0 96px 0;
+    gap: 24px
+}
+
+.container__paragrafo-primeiro{
+    font-size: 16px;
+    color: var( --vermelho-botão-paragrafo);
+    font-weight: 600;
+}
+
+.container__titulo{
+    font-size: 48px;
+    color: var(--preto-titulos);
+    font-weight: 600;
+    font-family: var(--font-principal);
+}
+
+.container__paragrafo-segundo{
+    font-size: 20px;
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    padding: 12px 0 0 0;
+    width: 750px;
+    height: 60px;
+}

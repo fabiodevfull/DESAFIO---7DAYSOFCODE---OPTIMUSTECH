@@ -1,0 +1,62 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+}
+
+.cabeçalho__logo-nome{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding-left: 5em;
+}
+
+.imagem__globo{
+    width: 27px;
+    height: 26.99%;
+}
+
+.cabeçalho__logo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-header);
+}
+
+.cabeçalho__navegação{
+    display: flex;
+    gap: 3em;
+    padding-right: 50em;
+}
+
+.cabeçalho__link{
+    text-decoration: none;
+    color: var(--cinza-paragrafos);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cabeçalho__login{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+    padding-right: 3em
+}
+
+.cabeçalho__entrar{
+    text-decoration: none;
+    color: var(--cinza-paragrafos);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cabeçalho__botão-cadastrar{
+    text-decoration: none;
+    color: var(--branco-paragrafo-botões);
+    border-radius: 10px;
+    background: var(--vermelho-botão-paragrafo);
+    padding: 1em 1.5em;
+}

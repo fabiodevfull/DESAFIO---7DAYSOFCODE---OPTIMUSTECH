@@ -1,0 +1,28 @@
+@import url(/STYLES/header.css);
+@import url(/STYLES/section-primeira.css);
+@import url(/STYLES//section-secundaria.css);
+@import url(/STYLES/section-terceira.css);
+@import url(/STYLES/section-quarta.css);
+@import url(STYLES/section.quinta.css);
+@import url(/STYLES/rodapé.css);
+
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;600 & display=swap');
+
+:root{
+    --branco-fundo: #FFFFFF;
+    --cinza-header: #3A404E;
+    --vermelho-botão-paragrafo: #8E2424;
+    --cinza-paragrafos: #667085;
+    --preto-titulos: #101828;
+    --rosado-fundo: rgba(195, 25, 25, 0.03);
+    --branco-cinza-claro-fundo: #F9FAFB;
+    --branco-paragrafo-botões: #FFFFFF;
+    --font-principal: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--branco-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

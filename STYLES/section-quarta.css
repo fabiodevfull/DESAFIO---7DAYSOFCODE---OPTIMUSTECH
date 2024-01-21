@@ -1,0 +1,37 @@
+.container__quarto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 40em 0 40em;
+    gap: 20px;
+}
+
+.container__quarto-categoria {
+    font-size: 20px;
+    color: var(--preto-titulos);
+    font-weight: 500;
+    padding: 1em ;
+}
+
+.container-quarto-vagas {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: solid 1px #EAECF0;
+    border-radius: 16px;
+    width: 600px;
+    height: 80px;
+    gap: 24px;
+}
+
+.container__quarto-objetivo{
+    font-size: 18px;
+    color: var(--preto-titulos);
+    font-weight: 500;
+}
+
+.container__quarto-informaçãovaga{
+    font-size: 16px;
+    color: var(--cinza-paragrafos);
+    font-weight: 500;
+}

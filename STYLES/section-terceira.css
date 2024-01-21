@@ -1,0 +1,42 @@
+.container__terceiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 96px 0 96px 0;
+    gap: 64px;
+}
+
+.container__vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 1280px;
+    height: 602px;
+}
+
+.container__imagem-reunião{
+    width: 1216px;
+    height: 400px;
+    top: 298px;
+    left: 112p;
+}
+
+.container__terceiro-subtitulo{
+    font-size: 14px;
+    color: var(--vermelho-botão-paragrafo);
+    font-weight: 500;
+}
+
+.container__terceiro-titulo{
+    font-size: 36px;
+    color: var(--preto-titulos);
+    font-weight: 600;
+}
+
+.container__paragrafo-vagas{
+    font-size: 20px;
+    color: var(--cinza-paragrafos);
+    font-weight: 400;
+}
+

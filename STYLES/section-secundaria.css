@@ -1,0 +1,33 @@
+.container__secundario{
+    display: flex;
+    height: 288px;
+    padding: 0em 15em;
+    gap: 64px;
+}
+
+.container__estatistica-caixa{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    gap: 1em;
+}
+
+.container__estatistica{
+    font-size: 60px;
+    color: var(--vermelho-botão-paragrafo);
+    font-weight: 600;
+}
+
+.container__segundo-titulo{
+    font-size: 18px;
+    color: var(--preto-titulos);
+    font-weight: 500;
+}
+
+.container__paragrafo-secundario{
+    font-size: 16px;
+    color: var(--cinza-paragrafos);
+    font-weight: 400;
+    width: 280px;
+    height: 48px;
+}
